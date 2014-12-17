@@ -30,12 +30,12 @@
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root 授权</string>
-     <string name="root_access_warning_title">允许 Root 授权请求？</string>
-     <string name="root_access_warning_message">允许应用得到超级用户权限是有风险的，可能会影响您的系统安全！</string>
-     <string name="root_access_none">已禁用</string>
-     <string name="root_access_apps">仅限于应用</string>
-     <string name="root_access_adb">仅限于 ADB</string>
-     <string name="root_access_all">应用与 ADB</string>
+    <string name="root_access_warning_title">允许 Root 授权请求？</string>
+    <string name="root_access_warning_message">允许应用得到超级用户权限是有风险的，可能会影响您的系统安全！</string>
+    <string name="root_access_none">已禁用</string>
+    <string name="root_access_apps">仅限于应用</string>
+    <string name="root_access_adb">仅限于 ADB</string>
+    <string name="root_access_all">应用与 ADB</string>
 
     <!-- Sound settings screen -->
     <string name="ring_mode_mute">静音模式</string>
@@ -202,7 +202,7 @@
     <string name="color_enhancement_title">色彩增强</string>
     <string name="color_enhancement_summary">动态增强屏幕色彩</string>
 
-    <string name="app_security_title">App security</string>
+    <string name="app_security_title">应用安全</string>
 
     <!-- Blacklist preferences -->
     <string name="blacklist_title">黑名单</string>
@@ -268,7 +268,7 @@
      <string name="sms_security_check_limit_title">短信限制</string>
      <string name="sms_security_check_limit_summary">应用在 30 分钟内发送 %d 条信息后需要用户认可才能继续</string>
      <string name="sms_security_check_limit_default">30 (默认)</string>
-     
+
      <string name="spam_added_title"> %1$s 已添加</string>
      <string name="spam_last_blocked_title">上次屏蔽 <xliff:g id="time_since" example="5 minutes ago">%1$s</xliff:g> (总计: <xliff:g id="count" example="2 times">%2$s</xliff:g>)</string>
      <string name="block_notifications_title">通知过滤</string>
@@ -641,14 +641,14 @@
     <string name="wifi_rssi_threshold_check_summary">Do not connect to an AP if RSSI is poor</string>
 
     <!-- SIM lock settings title  [CHAR LIMIT=40] -->
-    <string name="sim_lock_settings_cm">SIM/RUIM card lock settings</string>
+    <string name="sim_lock_settings_cm">SIM/RUIM卡锁定</string>
     <!-- Security & location settings screen, setting option name  [CHAR LIMIT=40] -->
-    <string name="sim_lock_settings_category_cm">Set up SIM/RUIM card lock</string>
+    <string name="sim_lock_settings_category_cm">设置SIM/RUIM卡锁定</string>
     <!-- Security & location settings screen, section heading for settings related to sim card locking  [CHAR LIMIT=40] -->
-    <string name="sim_lock_settings_title_cm">SIM/RUIM card lock</string>
+    <string name="sim_lock_settings_title_cm">SIM/RUIM卡锁定</string>
 
     <!-- SIM card lock settings screen, SIM PIN dialog message when SIM card is absent-->
-    <string name="sim_absent">No SIM/RUIM</string>
+    <string name="sim_absent">没有SIM/RUIM卡</string>
 
     <!-- SIM card lock settings screen, SIM PIN dialog message when PIN disable fails-->
     <string name="sim_pin_disable_failed">Can\'t disable PIN.</string>
@@ -679,15 +679,15 @@
     <!-- string resources for USB OTG & UICC features -->
     <string name="storage_usb">USB storage</string>
     <string name="storage_uicc">UICC storage</string>
-    <string name="usb_eject" product="default">Unmount USB storage</string>
-    <string name="usb_eject_summary" product="default">Unmount the USB storage so you can safely remove it</string>
+    <string name="usb_eject" product="default">卸载USB大容量存储</string>
+    <string name="usb_eject_summary" product="default">USB大容量存储已卸载，你可以安全移除了</string>
     <string name="usb_format" product="default">格式化 USB storage</string>
     <string name="usb_format_summary" product="default">擦除所有USB存储数据，比如音乐和照片</string>
-    <string name="usb_mount" product="default">Mount USB storage</string>
+    <string name="usb_mount" product="default">挂载USB大容量存储</string>
     <string name="usb_mount_summary" product="default"></string>
     <string name="usb_insert_summary" product="default">Insert an USB storage for mounting</string>
-    <string name="uicc_eject" product="default">Unmount UICC storage</string>
-    <string name="uicc_eject_summary" product="default">Unmount the UICC storage so you can safely remove it</string>
+    <string name="uicc_eject" product="default">卸载UICC存储设备</string>
+    <string name="uicc_eject_summary" product="default">UICC存储设备，你可以安全移除了</string>
     <string name="uicc_format" product="default">格式化 UICC storage</string>
     <string name="uicc_format_summary" product="default">擦除所有UICC存储数据，比如音乐和照片</string>
     <string name="uicc_mount" product="default">Mount UICC storage</string>
@@ -707,12 +707,12 @@
     <string name="uicc_media_format_title" product="default">格式化UICC存储</string>
     <string name="usb_media_format_summary" product="default">擦除所有USB存储数据</string>
     <string name="uicc_media_format_summary" product="default">擦除所有UICC存储数据</string>
-    <string name="usb_media_format_desc" product="default">格式化USB存储?你将失去<b>所有</b>数据!</string>
-    <string name="uicc_media_format_desc" product="default">格式化UICC存储?你将失去<b>所有</b>数据!</string>
     <string name="usb_media_format_button_text" product="default">格式化USB存储</string>
     <string name="uicc_media_format_button_text" product="default">格式化UICC存储</string>
     <string name="usb_media_format_final_desc" product="default">格式化USB存储?此操作不可逆!</string>
     <string name="uicc_media_format_final_desc" product="default">格式化UICC存储?此操作不可逆!</string>
+    <string name="usb_media_format_desc" product="default">格式化USB存储?你将失去<b>所有</b>数据!</string>
+    <string name="uicc_media_format_desc" product="default">格式化UICC存储?你将失去<b>所有</b>数据!</string>
     <string name="usb_media_format_gesture_explanation" product="default">You need to draw your unlock pattern to confirm that you want to erase the USB storage.</string>
     <string name="uicc_media_format_gesture_explanation" product="default">You need to draw your unlock pattern to confirm that you want to erase the UICC storage.</string>
 
@@ -720,10 +720,10 @@
     <string name="location_category_enhanced_location">Enhanced Location</string>
 
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">View or change app permissions</string>
+    <string name="app_ops_settings_summary">查看或修改应用权限</string>
 
     <!-- Setting checkbox summary when device is in Charging mode -->
-    <string name="enable_adb_summary_charging">Device is in Charging mode, USB debugging is disabled</string>
+    <string name="enable_adb_summary_charging">设备当前正处于充电模式，无法进行USB调试</string>
 
     <!-- Title of checkbox setting that enable quickboot. [CHAR LIMIT=32] -->
  <string name="enable_quickboot_title">启用快速启动模式</string>
@@ -768,5 +768,8 @@
 <string name="menu_hidden_apps_reset_lock">重置锁定图案</string>
 <string name="protected_apps">受保护的应用</string>
 <string name="saving_protected_components">正在保存组件状态\u2026</string>
+
+    <string name="stats_collection_title">数据收集</string>
+    <string name="stats_collection_summary">当允许时，我们将进行数据采集</string>
 
 </resources>
