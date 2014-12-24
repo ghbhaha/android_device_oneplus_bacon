@@ -64,9 +64,9 @@
 
     <!-- Multi recipients -->
     <string name="loading">请稍等\u2026</string>
-    <string name="select_recipients">Select recipients</string>
+    <string name="select_recipients">选择收件人</string>
     <string name="no_recipients">未发现联系人</string>
-    <string name="no_recipients_mobile_only">No matching contacts found. Try without the \'Mobile numbers only\' filter</string>
+    <string name="no_recipients_mobile_only">没有找到匹配的联系人。请尝试关闭过滤\'只显示电话号码\'</string>
     <string name="menu_done">完成</string>
     <string name="menu_mobile">仅限手机号码</string>
     <string name="menu_order_by_given_name">按姓名排序</string>
@@ -78,45 +78,45 @@
 
     <string name="start_new_message_button">新建短信</string>
 
-    <string name="all_spinner_option">All</string>
+    <string name="all_spinner_option">全部</string>
 
-    <string name="menu_copy_url">Copy url <xliff:g id="extractedurl">%s</xliff:g></string>
+    <string name="menu_copy_url">复制链接：<xliff:g id="extractedurl">%s</xliff:g></string>
 
-    <string name="deleting_threads">Deleting threads\u2026</string>
+    <string name="deleting_threads">正在删除\u2026</string>
 
     <!-- Time and date a message was sent -->
-    <string name="sent_on">"Sent: <xliff:g id="date">%s</xliff:g>"</string>
+    <string name="sent_on">"发送时间: <xliff:g id="date">%s</xliff:g>"</string>
 
     <!-- Time and date a message was received -->
-    <string name="received_on">"Received: <xliff:g id="date">%s</xliff:g>"</string>
+    <string name="received_on">"接收时间: <xliff:g id="date">%s</xliff:g>"</string>
 
-    <string name="menu_forward_conversation">Forward conversation</string>
+    <string name="menu_forward_conversation">转发</string>
     <!-- Context menu item on an failed message for resending -->
-    <string name="menu_resend">Resend</string>
+    <string name="menu_resend">重新发送</string>
 
-    <string name="cancel_downloading">Cancel</string>
-    <string name="confirm_cancel_downloading">Do you want to cancel downloading mms?</string>
+    <string name="cancel_downloading">取消</string>
+    <string name="confirm_cancel_downloading">你想取消下载彩信么？</string>
 
-    <string name="send_by_slot1">Send by slot1</string>
-    <string name="send_by_slot2">Send by slot2</string>
+    <string name="send_by_slot1">通过卡1发送</string>
+    <string name="send_by_slot2">通过卡2发送</string>
 
-    <string name="media_size_limit">Message size limit reached, can\'t send out message.</string>
+    <string name="media_size_limit">容量超过限制，你将不能发送此次彩信</string>
 
     <!-- Error message indicating that the message size or the increase size is negative -->
     <string name="illegal_message_or_increase_size">Negative message or increase size.</string>
 
     <!-- Dialog box title that appears when a draft message will not be saved due to invalid recipients -->
-    <string name="discard_message">Discard</string>
-    <string name="discard_message_reason_all_invalid">Your message will be discarded because all the recipients are invalid.</string>
-    <string name="discard_message_reason_some_invalid">Your message will be discarded because it has some invalid recipients.</string>
+    <string name="discard_message">丢弃</string>
+    <string name="discard_message_reason_all_invalid">由于所有的收件人是无效的，您的信息将被丢弃。</string>
+    <string name="discard_message_reason_some_invalid">由于部分的收件人是无效的，您的信息将被丢弃。</string>
 
     <!-- Brief message that appears when the maximum size of slides has been reached -->
-    <string name="cannot_add_text_anymore">Can\'t add more text.</string>
+    <string name="cannot_add_text_anymore">不能再添加任何文字。</string>
 
     <!-- Dialog box title for display the current mms size  -->
     <string name="title_send_message">发送短信</string>
     <!-- Toast when the subject is full -->
-    <string name="subject_full">Subject full</string>
+    <string name="subject_full">全部主题</string>
 
     <string name="pref_summary_manage_sim_messages_slot">管理SIM卡中的短信 <xliff:g id="NUMBER">%s</xliff:g></string>
 
@@ -126,33 +126,33 @@
     <string name="prefs_title_export_sms_messages">导出短信</string>
     <string name="prefs_title_import_sms_messages">导入短信</string>
 
-    <string name="pref_title_sms_delivery_reports_slot1">Delivery reports for SIM1</string>
-    <string name="pref_title_sms_delivery_reports_slot2">Delivery reports for SIM2</string>
+    <string name="pref_title_sms_delivery_reports_slot1">SIM1发送报告</string>
+    <string name="pref_title_sms_delivery_reports_slot2">SIM2发送报告</string>
 
     <!-- Status in "Report" window -->
     <string name="status_deleted_unread">删除未读短信</string>
 
     <!-- Device Full Notification dialog text. -->
-    <string name="sms_full_body_cm">Phone memory is full, can\'t send and receive new messages, please delete some old messages.</string>
+    <string name="sms_full_body_cm">手机存储已满, 你将不能收发任何信息，请删除一些旧短信。</string>
     <!-- Disk Storage Full Error Notification dialog text. -->
     <string name="disk_storage_full_error">错误：存储已满。</string>
 
     <!-- Mms size is too large dialog text. -->
-    <string name="mms_too_large">The message is too large to download.</string>
+    <string name="mms_too_large">信息过大，将不能被下载。</string>
 
-    <string name="send_failed_retry">Sending failed, auto retry.</string>
-    <string name="download_failed_retry">Downloading failed, auto retry.</string>
+    <string name="send_failed_retry">发送失败，自动重试。</string>
+    <string name="download_failed_retry">下载失败，自动重试.</string>
 
     <string name="system_audio_item">System audio</string>
     <string name="external_audio_item">External audio</string>
 
-    <string name="mail_to">mailto:</string>
+    <string name="mail_to">邮寄地址:</string>
     <!-- Menu item to connect the extract url in WwwContextMenuActivity  -->
-    <string name="menu_connect_url">Connect</string>
-    <string name="do_not_show_connect_warning">Do not show me this warning again.</string>
+    <string name="menu_connect_url">打开链接</string>
+    <string name="do_not_show_connect_warning">下次不再提醒。</string>
     <!-- Menu item to add the extract url to boomark in WwwContextMenuActivity  -->
-    <string name="menu_add_to_label">Save to bookmark</string>
-    <string name="loadurlinfo_str">Warning: URLs from unknown sources can lead to phishing attempts</string>
+    <string name="menu_add_to_label">存为书签</string>
+    <string name="loadurlinfo_str">警告：你将访问未知网站，可能存在风险</string>
     <!-- Message Template -->
     <string name="pref_summary_message_template">编辑短信模板</string>
     <string name="pref_title_message_template">短信模板</string>
@@ -176,28 +176,28 @@
     <string name="operation_to_card_memory">复制短信到SIM卡</string>
 
     <!-- SMSC -->
-    <string name="pref_smsc_title">SMSC Setings</string>
-    <string name="pref_one_smcs">"Set the smsc number"</string>
+    <string name="pref_smsc_title">SMSC设置</string>
+    <string name="pref_one_smcs">"设置smsc号码"</string>
     <string name="pref_more_smcs">"Set the SIM"<xliff:g id="slot_number">%d</xliff:g>"'s smsc number"</string>
-    <string name="set_smsc_error">Set the smsc number error</string>
-    <string name="set_smsc_success">Set the smsc number success</string>
+    <string name="set_smsc_error">设置smsc号码出错</string>
+    <string name="set_smsc_success">设置smsc号码成功</string>
     <string name="set_smsc_confirm_message">Change the smsc may lead to the SMS sending failure, to confirm the change?</string>
 
     <!-- Copy message to sim -->
     <string name="copy_to_sim">复制短信到SIM卡</string>
-    <string name="copy_to_sim_success">Copy SMS to SIM card, SUM: %1$d, SUCCESS: %2$d</string>
+    <string name="copy_to_sim_success">复制短信到锁定卡, 总共: %1$d, 已完成: %2$d</string>
     <string name="copy_to_sim_fail">不能保存短信</string>
-    <string name="copy_to_phone_success">Message saved</string>
-    <string name="copy_to_phone_fail">Unable to save message</string>
+    <string name="copy_to_phone_success">信息已被保存</string>
+    <string name="copy_to_phone_fail">不能保存信息</string>
 
-    <string name="contact_app_not_found">Can not find Contact application</string>
+    <string name="contact_app_not_found">无法找到联系人应用程序</string>
     <!-- Gray hint displayed in the search field in Contacts when empty -->
-    <string name="search_bar_hint">Search contacts</string>
-    <string name="select_all">All</string>
+    <string name="search_bar_hint">查找联系人</string>
+    <string name="select_all">全部</string>
 
     <!-- Add for share contact feature -->
     <string name="type_vcard">vCard</string>
-    <string name="import_vcard">Import</string>
+    <string name="import_vcard">导入</string>
     <string name="attach_add_contact_as_text">Insert contact info</string>
     <string name="attach_add_contact_as_vcard">Contact vCard</string>
 
@@ -217,10 +217,10 @@
 
     <!-- String used in MemoryStatusActivity.java -->
     <string name="memory_status_title">存储状态</string>
-    <string name="sms_phone_used">Sms Used:</string>
-    <string name="sms_phone_capacity">Sms Capacity:</string>
-    <string name="mms_phone_used">Mms Used:</string>
-    <string name="mms_phone_capacity">Mms Capacity:</string>
+    <string name="sms_phone_used">短信已使用:</string>
+    <string name="sms_phone_capacity">短信容量:</string>
+    <string name="mms_phone_used">彩信容量:</string>
+    <string name="mms_phone_capacity">彩信容量</string>
 
     <string name="sub">SUB</string>
 
@@ -239,49 +239,49 @@
     <string name="operate_failure">操作失败！</string>
     <string name="menu_reply">回复</string>
 
-    <string name="slot1">Slot1</string>
-    <string name="slot2">Slot2</string>
+    <string name="slot1">插槽1</string>
+    <string name="slot2">插槽2</string>
 
-    <string name="normal_show">View normal mode</string>
-    <string name="cannot_play">Cannot present the slide show.</string>
+    <string name="normal_show">普通查看模式</string>
+    <string name="cannot_play">不能展示幻灯片。</string>
 
-    <string name="confirm_delete_selected_messages">The selected messages will be deleted.</string>
+    <string name="confirm_delete_selected_messages">选中的信息将被删除</string>
     <!-- menu item of mailboxmessagecontent -->
-    <string name="menu_load_push">Load</string>
-    <string name="menu_delete_msg">Delete</string>
+    <string name="menu_load_push">加载</string>
+    <string name="menu_delete_msg">删除</string>
     <!-- toast for send result -->
-    <string name="send_failure">Sending failed!</string>
-    <string name="send_success">Send successfully!</string>
+    <string name="send_failure">发送失败!</string>
+    <string name="send_success">发送成功!</string>
     <!-- title of mailboxmessagecontent -->
-    <string name="message_detail">Message detail</string>
-    <string name="select_messages">Select messages</string>
-    <string name="no_message">No messages</string>
-    <string name="change_to_folder_mode">Change to folder mode</string>
-    <string name="change_to_conversation_mode">Change to conversation mode</string>
+    <string name="message_detail">信息详情</string>
+    <string name="select_messages">选中信息</string>
+    <string name="no_message">没有信息</string>
+    <string name="change_to_folder_mode">切换到文件夹模式</string>
+    <string name="change_to_conversation_mode">切换到通话模式</string>
     <!-- Spinner item of box type in mailbox-mode -->
-    <string name="box_type_select">Select box type</string>
-    <string name="type_inbox">Inbox</string>
-    <string name="type_sent">Sent</string>
-    <string name="type_outbox">Outbox</string>
-    <string name="type_draft">Drafts</string>
+    <string name="box_type_select">选择框中键入</string>
+    <string name="type_inbox">收件箱</string>
+    <string name="type_sent">发送</string>
+    <string name="type_outbox">发件箱</string>
+    <string name="type_draft">草稿箱</string>
     <!-- Spinner item of slot type in mailbox-mode -->
-    <string name="slot_type_select">Select slot</string>
-    <string name="type_all">All</string>
-    <string name="type_slot1">Card1</string>
-    <string name="type_slot2">Card2</string>
+    <string name="slot_type_select">选择卡</string>
+    <string name="type_all">全部</string>
+    <string name="type_slot1">卡1</string>
+    <string name="type_slot2">卡2</string>
     <!-- String used in SearchActivityExtend.java -->
-    <string name="search_title">"Message search"</string>
-    <string name="search_key">Search keyword</string>
-    <string name="search_mode">Search mode</string>
-    <string name="search_as_name">Name</string>
-    <string name="search_as_number">Number</string>
-    <string name="search_as_content">Content</string>
-    <string name="search_as_subject">Subject</string>
-    <string name="invalid_name_toast">Please input valid name!</string>
+    <string name="search_title">"查找短信"</string>
+    <string name="search_key">查找关键词</string>
+    <string name="search_mode">查找模式</string>
+    <string name="search_as_name">名称</string>
+    <string name="search_as_number">号码</string>
+    <string name="search_as_content">内容</string>
+    <string name="search_as_subject">主题</string>
+    <string name="invalid_name_toast">请输入有效的名称！</string>
 
-    <string name="sim_capacity_title">SIM Capacity</string>
-    <string name="sim_capacity_used">Used:  </string>
-    <string name="sim_capacity">Capacity:  </string>
+    <string name="sim_capacity_title">SIM卡容量</string>
+    <string name="sim_capacity_used">已使用:  </string>
+    <string name="sim_capacity">容量:  </string>
 
     <!-- Settings item description for Mms Validity period -->
     <string name="pref_title_mms_save_time">彩信有效期</string>
@@ -293,52 +293,52 @@
     <string name="save_description">彩信存储在服务器上的时间</string>
     <string name="status_expired">彩信过期</string>
 
-    <string name="pref_sim_card_full_save_to_phone">SIM card full, save new message to phone.</string>
+    <string name="pref_sim_card_full_save_to_phone">SIM卡已满，新的信息将保存至手机</string>
 
     <!-- batch delete message in ConversationList and MailBoxMessageList -->
     <string name="selected_all">全选</string>
     <string name="deselected_all">全不选</string>
-    <string name="selected_count"><xliff:g id="COUNT">%d</xliff:g> selected</string>
+    <string name="selected_count">已选中<xliff:g id="COUNT">%d</xliff:g>条</string>
     <!--add for toast when deleting -->
-    <string name="deleting_title">Deleting</string>
-    <string name="please_wait">Please waiting...</string>
-    <string name="done_delete">DONE</string>
+    <string name="deleting_title">删除中</string>
+    <string name="please_wait">请稍候...</string>
+    <string name="done_delete">完成</string>
     <!--add for toast when merging sms -->
-    <string name="merging_sms_title">Merging sms</string>
+    <string name="merging_sms_title">合并短信</string>
     <!-- priority of cdma message -->
     <string translatable="false" name="default_cdma_priority">0</string>
-    <string name="cdma_priority_normal">Normal</string>
-    <string name="cdma_priority_interactive">Interactive</string>
+    <string name="cdma_priority_normal">正常</string>
+    <string name="cdma_priority_interactive">互动</string>
     <string name="cdma_priority_urgent">Urgent</string>
     <string name="cdma_priority_emergency">Emergency</string>
     <string name="pref_title_cdma_priority">Message priority</string>
     <string name="pref_summary_cdma_priority">Priority of CDMA message</string>
-    <string name="prefDialogTitle_cdma_priority">Priority</string>
-    <string name="download_dialog_title">Comfirm download this MMS?</string>
-    <string name="menu_email">Send Email</string>
+    <string name="prefDialogTitle_cdma_priority">优先</string>
+    <string name="download_dialog_title">确认下载彩信?</string>
+    <string name="menu_email">发送邮件</string>
 
     <!-- Settings item description for Preferred storage -->
-    <string name="pref_title_sms_store">Preferred storage</string>
-    <string name="pref_title_sms_store_card1">Preferred storage for SIM1</string>
-    <string name="pref_title_sms_store_card2">Preferred storage for SIM2</string>
-    <string name="pref_sms_store_phone">Phone</string>
-    <string name="pref_sms_store_card">SIM card</string>
-    <string name="pref_sms_store_card_unknown_fail">Failure to receive new messages, the SIM card can\'t be read correctly</string>
+    <string name="pref_title_sms_store">默认存储位置</string>
+    <string name="pref_title_sms_store_card1">默认存到SIM1</string>
+    <string name="pref_title_sms_store_card2">默认存到SIM2</string>
+    <string name="pref_sms_store_phone">手机</string>
+    <string name="pref_sms_store_card">SIM卡</string>
+    <string name="pref_sms_store_card_unknown_fail">接收新信息失败，SIM不能正常读取。</string>
     <string name="mms_size_indicator"><xliff:g id="mms_size">%1$s</xliff:g>K/<xliff:g id="all_size">%2$s</xliff:g>K</string>
-    <string name="forward_size_over">Forbid forwarding, new message size over 300K.</string>
+    <string name="forward_size_over">禁止转发，新邮件大小超过300K。</string>
 
     <string name="pre_define_message_template_1">I\'ll call you back later.</string>
     <string name="pre_define_message_template_2">I am in conference. I\'ll call you back later.</string>
     <string name="pre_define_message_template_3">Please call me later.</string>
     <string name="pre_define_message_template_4">Will you please call me back?</string>
 
-    <string name="menu_delete_all_entries">Delete all</string>
-    <string name="menu_delete_sms">Delete SMS</string>
-    <string name="menu_delete_mms">Delete MMS</string>
+    <string name="menu_delete_all_entries">删除所有</string>
+    <string name="menu_delete_sms">删除短信</string>
+    <string name="menu_delete_mms">删除彩信</string>
 
     <plurals name="confirm_delete_messages">
         <!-- Case of 1 result. -->
-        <item quantity="one">One message will be deleted.</item>
+        <item quantity="one">一条短信将会被删除</item>
         <!-- Case of 0 or 2 or more results. -->
         <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> messages will be deleted.</item>
     </plurals>
@@ -354,7 +354,7 @@
     <string name="perform_restore_title">正在还原...</string>
     <string name="wait_progress_message">请稍等...</string>
     <string name="backup_file_name_message">保存路径: %1s</string>
-    <string name="manage_sdcard_messages">管理备份在SD卡中的短信</string>
+    <string name="manage_sdcard_messages">管理存储卡中的短信</string>
     <string name="no_backups_found">未发现短信备份</string>
     <string name="remove_subject">删除主题</string>
 
