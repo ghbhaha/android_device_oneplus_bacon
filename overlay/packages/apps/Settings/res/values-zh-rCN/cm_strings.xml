@@ -623,9 +623,9 @@
     <string name="gamma_tuning_title_head">伽玛校准</string>
     <string name="gamma_tuning_summary_head">调整伽玛值</string>
     <string name="gamma_tuning_control_set_header">组 <xliff:g id="index">%d</xliff:g></string>
-    <string name="gamma_tuning_contrast">Contrast</string>
-    <string name="gamma_tuning_brightness">Brightness</string>
-    <string name="gamma_tuning_saturation">Saturation</string>
+    <string name="gamma_tuning_contrast">对比度</string>
+    <string name="gamma_tuning_brightness">亮度</string>
+    <string name="gamma_tuning_saturation">饱和度</string>
 
     <string name="settings_reset_button">恢复默认值</string>
 
@@ -640,12 +640,12 @@
     <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. -->
     <string name="bluetooth_dun_profile_summary_connected">连接到DUN服务</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference when SAP is connected. -->
-    <string name="bluetooth_sap_profile_summary_connected">Connected to SIM Access Server</string>
+    <string name="bluetooth_sap_profile_summary_connected">连接到SIM卡接入服务器</string>
 
     <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference that describes how checking it will set the DUN profile as preferred. -->
-    <string name="bluetooth_dun_profile_summary_use_for">Use for Dial-up Network Access</string>
+    <string name="bluetooth_dun_profile_summary_use_for">使用拨号网络访问</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference that describes how checking it will set the SAP profile as preferred. -->
-    <string name="bluetooth_sap_profile_summary_use_for">Use for SIM Access</string>
+    <string name="bluetooth_sap_profile_summary_use_for">使用SIM访问</string>
 
     <!-- Checkbox title for option to toggle wifi RSSI threshold check -->
     <string name="wifi_rssi_threshold_check">Enable RSSI threshold</string>
@@ -663,20 +663,20 @@
     <string name="sim_absent">没有SIM/RUIM卡</string>
 
     <!-- SIM card lock settings screen, SIM PIN dialog message when PIN disable fails-->
-    <string name="sim_pin_disable_failed">Can\'t disable PIN.</string>
+    <string name="sim_pin_disable_failed">不能禁用PIN。</string>
     <!-- SIM card lock settings screen, SIM PIN dialog message when PIN enable fails-->
-    <string name="sim_pin_enable_failed">Can\'t enable PIN.</string>
+    <string name="sim_pin_enable_failed">不能启用PIN。</string>
 
     <!-- SIM password can't be changed as SIM LOCK is not enabled: -->
-    <string name="sim_pin_change_failed_enable_sim_lock">Unable to Change SIM/RUIM PIN.\n Enable SIM/RUIM Lock.</string>
+    <string name="sim_pin_change_failed_enable_sim_lock">无法更改SIM/RUIM卡PIN。\n启用SIM/RUIM卡锁。</string>
     <!-- SIM lock can't be changed - not supported -->
-    <string name="sim_enable_disable_lock_not_supported">Unable to Change SIM/RUIM Lock.\n SIM/RUIM doesn\'t support it.</string>
+    <string name="sim_enable_disable_lock_not_supported">无法更改SIM/RUIM卡IN。\nSIM/RUIM卡不支持。</string>
     <!-- SIM card lock settings screen, toast displayed on wrong PIN1: -->
-    <string name="sim_pin_attempts">\nAttempts Remaining :</string>
+    <string name="sim_pin_attempts">\n剩余尝试次数：</string>
     <!-- SIM card lock settings screen, toast displayed on PIN1 enable: -->
-    <string name="sim_pin_enabled">PIN1 Enabled!</string>
+    <string name="sim_pin_enabled">PIN1已禁用!</string>
     <!-- SIM card lock settings screen, toast displayed on PIN1 disable: -->
-    <string name="sim_pin_disabled">PIN1 Disabled!</string>
+    <string name="sim_pin_disabled">PIN1已启用!</string>
 
     <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
  <string name="device_status_summary_cm" product="tablet">电池状态、 网络和其他信息</string>
@@ -689,31 +689,31 @@
  <string name="device_additional_status">其他状态信息</string>
 
     <!-- string resources for USB OTG & UICC features -->
-    <string name="storage_usb">USB storage</string>
-    <string name="storage_uicc">UICC storage</string>
+    <string name="storage_usb">USB存储</string>
+    <string name="storage_uicc">UICC存储</string>
     <string name="usb_eject" product="default">卸载USB大容量存储</string>
     <string name="usb_eject_summary" product="default">USB大容量存储已卸载，你可以安全移除了</string>
-    <string name="usb_format" product="default">格式化 USB storage</string>
+    <string name="usb_format" product="default">格式化USB存储</string>
     <string name="usb_format_summary" product="default">擦除所有USB存储数据，比如音乐和照片</string>
     <string name="usb_mount" product="default">挂载USB大容量存储</string>
     <string name="usb_mount_summary" product="default"></string>
-    <string name="usb_insert_summary" product="default">Insert an USB storage for mounting</string>
+    <string name="usb_insert_summary" product="default">插入USB存储以挂载</string>
     <string name="uicc_eject" product="default">卸载UICC存储设备</string>
     <string name="uicc_eject_summary" product="default">UICC存储设备，你可以安全移除了</string>
     <string name="uicc_format" product="default">格式化 UICC storage</string>
     <string name="uicc_format_summary" product="default">擦除所有UICC存储数据，比如音乐和照片</string>
-    <string name="uicc_mount" product="default">Mount UICC storage</string>
+    <string name="uicc_mount" product="default">挂载UICC存储</string>
     <string name="uicc_mount_summary" product="default"></string>
-    <string name="uicc_insert_summary" product="default">Insert an UICC storage for mounting</string>
+    <string name="uicc_insert_summary" product="default">插入UICC存储以挂载</string>
 
-    <string name="dlg_confirm_usb_unmount_title" product="default">Unmount USB storage?</string>
-    <string name="dlg_confirm_uicc_unmount_title" product="default">Unmount UICC storage?</string>
-    <string name="dlg_confirm_usb_unmount_text" product="default">If you unmount the USB storage, some apps you are using will stop and may be unavailable until you remount the USB storage.</string>
-    <string name="dlg_confirm_uicc_unmount_text" product="default">If you unmount the UICC storage, some apps you are using will stop and may be unavailable until you remount the UICC storage.</string>
-    <string name="dlg_error_usb_unmount_text" product="default">Couldn\'t unmount USB storage. Try again later.</string>
-    <string name="dlg_error_uicc_unmount_text" product="default">Couldn\'t unmount UICC storage. Try again later.</string>
-    <string name="usb_unmount_inform_text" product="default">USB storage will be unmounted.</string>
-    <string name="uicc_unmount_inform_text" product="default">UICC storage will be unmounted.</string>
+    <string name="dlg_confirm_usb_unmount_title" product="default">卸载USB存储?</string>
+    <string name="dlg_confirm_uicc_unmount_title" product="default">卸载UICC存储?</string>
+    <string name="dlg_confirm_usb_unmount_text" product="default">如果你卸载USB存储，某些应用可能会停止运行直到重新挂载。</string>
+    <string name="dlg_confirm_uicc_unmount_text" product="default">如果你卸载UICC存储，某些应用可能会停止运行直到重新挂载。</string>
+    <string name="dlg_error_usb_unmount_text" product="default">USB存储卸载失败，请稍后重试。</string>
+    <string name="dlg_error_uicc_unmount_text" product="default">UICC存储卸载失败，请稍后重试。</string>
+    <string name="usb_unmount_inform_text" product="default">USB存储将被卸载。</string>
+    <string name="uicc_unmount_inform_text" product="default">UICC存储将被卸载。</string>
 
     <string name="usb_media_format_title" product="default">格式化USB存储</string>
     <string name="uicc_media_format_title" product="default">格式化UICC存储</string>
@@ -725,11 +725,11 @@
     <string name="uicc_media_format_final_desc" product="default">格式化UICC存储?此操作不可逆!</string>
     <string name="usb_media_format_desc" product="default">格式化USB存储?你将失去<b>所有</b>数据!</string>
     <string name="uicc_media_format_desc" product="default">格式化UICC存储?你将失去<b>所有</b>数据!</string>
-    <string name="usb_media_format_gesture_explanation" product="default">You need to draw your unlock pattern to confirm that you want to erase the USB storage.</string>
-    <string name="uicc_media_format_gesture_explanation" product="default">You need to draw your unlock pattern to confirm that you want to erase the UICC storage.</string>
+    <string name="usb_media_format_gesture_explanation" product="default">您需要绘制解锁图案以确认您要格式化USB存储设备。</string>
+    <string name="uicc_media_format_gesture_explanation" product="default">您需要绘制解锁图案以确认您要格式化UICC存储设备。</string>
 
     <!-- [CHAR LIMIT=130] Location mode screen, sub category for IZat Location -->
-    <string name="location_category_enhanced_location">Enhanced Location</string>
+    <string name="location_category_enhanced_location">增强信号</string>
 
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">查看或修改应用权限</string>
@@ -746,11 +746,11 @@
 
     <!-- MultiSim Settings changes-->
     <string name="close_dialog">完成</string>
-    <string name="sim_enabler_title">SIM Enablers</string>
+    <string name="sim_enabler_title">SIM卡激活</string>
     <string name="sim_enabler_summary">SIM is %1$s</string>
     <string name="sim_enabled">启用</string>
     <string name="sim_disabled">禁用</string>
-    <string name="sim_missing">丢失活出错</string>
+    <string name="sim_missing">丢失或出错</string>
     <string name="sim_enabler_need_enable_sim">激活SIM卡，确定？</string>
     <string name="sim_enabler_need_disable_sim">停用SIM卡，确定？</string>
     <string name="sim_enabler_airplane_on">出错，飞行模式已开启</string>

@@ -24,5 +24,5 @@
            <string name="pref_secure_storage_delayed_sync_title">同步延迟</string>
 	   
 
-    <string name="pref_secure_storage_delete_storage_title">Delete storage</string>  
+    <string name="pref_secure_storage_delete_storage_title">删除存储设备</string>  
 </resources>
