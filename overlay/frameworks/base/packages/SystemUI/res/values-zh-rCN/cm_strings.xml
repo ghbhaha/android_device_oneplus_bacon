@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The text for the button in the notification window-shade that clears
          all of the currently visible notifications. [CHAR LIMIT=10]-->
-    <string name="clear_recents">Close all recent</string>
+    <string name="clear_recents">关闭所有最近任务</string>
 
     <!-- Screenshot delete -->
     <string name="screenshot_delete_action">删除</string>

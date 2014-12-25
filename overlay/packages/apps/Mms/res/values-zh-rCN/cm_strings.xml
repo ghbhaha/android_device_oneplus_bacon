@@ -16,35 +16,35 @@
 
     <!-- QM Dialog box buttons -->
     <string name="button_close">关闭</string>
-     <string name="button_view">查看</string>
-     <string name="button_templates">模板</string>
+    <string name="button_view">查看</string>
+    <string name="button_templates">模板</string>
 
     <!-- Hint text in message body field when keyboard is exposed -->
-     <string name="type_to_reply_text_enter_to_send">键入信息</string>
+    <string name="type_to_reply_text_enter_to_send">键入信息</string>
 
     <!-- QM Toast -->
-     <string name="toast_sending_message">信息发送中</string>
+    <string name="toast_sending_message">信息发送中</string>
 
     <!-- QM - Quick reply -->
     <string name="qm_quick_reply">快速回复</string>
 
     <!-- Delay delivery -->
-     <string name="pref_title_send_delay">延迟发送短信</string>
-     <string name="send_delay_immediate">立即发送</string>
-     <string name="send_delay_3seconds">3 秒</string>
-     <string name="send_delay_5seconds">5 秒</string>
-     <string name="send_delay_10seconds">10 秒</string>
-     <string name="send_delay_20seconds">20 秒</string>
-     <string name="send_delay_30seconds">30 秒</string>
-     <string name="sent_countdown">延迟发送倒计时</string>
+    <string name="pref_title_send_delay">延迟发送短信</string>
+    <string name="send_delay_immediate">立即发送</string>
+    <string name="send_delay_3seconds">3 秒</string>
+    <string name="send_delay_5seconds">5 秒</string>
+    <string name="send_delay_10seconds">10 秒</string>
+    <string name="send_delay_20seconds">20 秒</string>
+    <string name="send_delay_30seconds">30 秒</string>
+    <string name="sent_countdown">延迟发送倒计时</string>
 
     <!-- EXTRA SETTINGS -->
     <string name="pref_extra_settings">附加设置</string>
 
     <!-- Blacklist preferences -->
     <string name="blacklist_title">黑名单</string>
-     <string name="blacklist_summary_disabled">禁用</string>
-     <string name="blacklist_summary">来自于黑名单中电话号码的短信信息将会被阻止</string>
+    <string name="blacklist_summary_disabled">禁用</string>
+    <string name="blacklist_summary">来自于黑名单中电话号码的短信信息将会被阻止</string>
 
     <!-- Blacklist notifications -->
     <string name="blacklist_notification">从%s拦截短信</string>
@@ -55,12 +55,12 @@
     <string name="unblock_number">未拦截</string>
 
     <!-- Blacklist management -->
-     <string name="add_to_blacklist">添加到黑名单</string>
-     <string name="add_to_blacklist_message">未来来自于 %s 的信息将会被阻止</string>
+    <string name="add_to_blacklist">添加到黑名单</string>
+    <string name="add_to_blacklist_message">未来来自于 %s 的信息将会被阻止</string>
 
     <!-- Generic blacklist handling -->
     <string name="alert_dialog_yes">是</string>
-     <string name="alert_dialog_no">否</string>
+    <string name="alert_dialog_no">否</string>
 
     <!-- Multi recipients -->
     <string name="loading">请稍等\u2026</string>
