@@ -767,7 +767,7 @@
     <string name="slot_name">SIM <xliff:g id="sub">%d</xliff:g></string>
 
     <string name="usb_charging_title">充电</string>
-    <string name="usb_charging_summary">使usb连接仅用于充电</string>
+    <string name="usb_charging_summary">usb连接仅用于充电</string>
     <string name="primary_sub_select_title">默认4G/3G订阅</string>
 
     <string name="usb_sdcard_summary">使您可以在计算机和 SD 卡之间传输文件</string>

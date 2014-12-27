@@ -199,7 +199,7 @@
     <string name="type_vcard">电子名片</string>
     <string name="import_vcard">导入</string>
     <string name="attach_add_contact_as_text">添加联系人信息</string>
-    <string name="attach_add_contact_as_vcard">联系人名片</string>
+    <string name="attach_add_contact_as_vcard">添加联系人名片</string>
 
     <string name="contact_info_text_as_name">姓名:</string>
     <string name="contact_info_text_as_phone">电话:</string>
