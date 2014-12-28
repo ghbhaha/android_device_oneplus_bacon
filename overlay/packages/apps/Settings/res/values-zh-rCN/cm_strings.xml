@@ -359,6 +359,11 @@
      <string name="disable_navkeys_title">启用屏幕上的导航栏</string>
      <string name="disable_navkeys_summary">启用屏幕上导航栏并禁用硬件按钮</string>
 
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_category">导航栏</string>
+    <string name="navigation_bar_left_title">左手模式</string>
+    <string name="navigation_bar_left_summary">横屏时，导航栏显示在左侧</string>
+
     <string name="header_category_personalization">个性化</string>
 
     <!-- Status bar -->
