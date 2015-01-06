@@ -21,7 +21,7 @@
         <item quantity="other">只需再次点击<xliff:g id="step_count">%1$d</xliff:g>次就可以打开开发者模式了</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">您已关闭开发者模式!</string>
+    <string name="show_dev_on_cm">开发者模式已开启!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
     <string name="show_dev_already_cm">您已开启开发者模式!</string>
 
@@ -165,6 +165,7 @@
     <string name="hardware_keys_home_key_title">Home 键</string>
     <string name="hardware_keys_back_key_title">返回键</string>
     <string name="hardware_keys_menu_key_title">菜单键</string>
+    <string name="hardware_keys_assist_key_title">搜索键</string>
     <string name="hardware_keys_appswitch_key_title">最近任务键</string>
     <string name="hardware_keys_volume_keys_title">音量键</string>
     <string name="hardware_keys_short_press_title">短按行为</string>
@@ -185,11 +186,25 @@
     <string name="volbtn_cursor_control_off">禁用</string>
     <string name="volbtn_cursor_control_on">音量+/-光标左/右移动</string>
     <string name="volbtn_cursor_control_on_reverse">音量+/-光标右/左移动</string>
+    <string name="swap_volume_buttons_title">重新调整</string>
+    <string name="swap_volume_buttons_summary">旋转屏幕时交换音量键的布局</string>
     <string name="power_end_call_title">结束通话</string>
     <string name="power_end_call_summary">按下电源按钮将结束当前通话</string>
     <string name="button_wake_title">唤醒</string>
     <string name="home_answer_call_title">接通电话</string>
     <string name="home_answer_call_summary">按下Home键将接通来电</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">按键背光</string>
+    <string name="button_backlight_enabled">Illuminate buttons</string>
+    <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
+    <string name="button_backlight_seekbar_title">背光亮度</string>
+    <string name="keyboard_backlight_seekbar_title">键盘背光</string>
+    <string name="backlight_timeout_title">背光超时</string>
+    <string name="backlight_timeout_unlimited">不要关闭</string>
+    <string name="backlight_summary_disabled">禁用</string>
+    <string name="backlight_summary_enabled_with_timeout">背光时间<xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">启用</string>
 
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">自适应背光</string>
@@ -277,12 +292,15 @@
      <string name="no_filters_title">没有设置过滤器。若要过滤通知，请长按它并选择“忽略像这样的消息”。</string>
 
     <!-- About phone screen, build date -->
+    <string name="model_name">手机型号</string>
     <string name="build_date">编译日期</string>
     <string name="build_date_default">2014-01-01-0000</string>
 
     <!--- Advanced Settings -->
     <string name="advanced_settings">高级设置</string>
     <string name="advanced_settings_summary">更多设置选项</string>
+
+    <string name="contributor_cloud_title">贡献者</string>
 
     <!--- Tap To Wake -->
     <string name="double_tap_to_wake_title">双击唤醒</string>
@@ -498,6 +516,7 @@
     <string name="app_ops_summaries_delete_call_log">删除通话记录</string>
     <string name="app_ops_summaries_data_change">数据变化</string>
     <string name="app_ops_summaries_wake_up">唤醒</string>
+    <string name="app_ops_summaries_su">超级用户</string>
 
     <string name="app_ops_labels_location">位置</string>
      <string name="app_ops_labels_vibrate">振动</string>
@@ -550,6 +569,7 @@
     <string name="app_ops_labels_delete_call_log">删除通话记录</string>
     <string name="app_ops_labels_data_change">数据改变</string>
     <string name="app_ops_labels_wake_up">唤醒</string>
+    <string name="app_ops_labels_su">Root权限</string>
 
     <!-- App ops categories -->
      <string name="app_ops_categories_location">位置</string>
@@ -558,6 +578,7 @@
      <string name="app_ops_categories_media">媒体</string>
      <string name="app_ops_categories_device">设备</string>
      <string name="app_ops_categories_bootup">启动时</string>
+    <string name="app_ops_categories_su">超级用户</string>
 
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">允许</string>
@@ -632,6 +653,23 @@
     <string name="gamma_tuning_brightness">亮度</string>
     <string name="gamma_tuning_saturation">饱和度</string>
 
+    <!-- Display settings.  Screen color. -->
+    <string name="screencolor">屏幕颜色</string>
+    <string name="screencolor_summary">Tune screen Hue, Saturation, Contrast and Intensity</string>
+    <string name="custom_screencolor">自定义屏幕颜色</string>
+    <string name="screencolor_save">保存</string>
+    <string name="screencolor_cancel">取消</string>
+    <string name="previous_str">Previous</string>
+    <string name="new_str">New</string>
+    <string name="restore_preview">View default picture</string>
+    <string name="selectnewfile_menu">View new picture from Gallery</string>
+    <string name="selectfile_menu">View picture from Gallery</string>
+    <string name="restore_default_str">Reset</string>
+    <string name="hue_str">Hue: <xliff:g id="hue_value">%1$s</xliff:g></string>
+    <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
+    <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
+    <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+
     <string name="settings_reset_button">恢复默认值</string>
 
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
@@ -684,14 +722,14 @@
     <string name="sim_pin_disabled">PIN1已启用!</string>
 
     <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
- <string name="device_status_summary_cm" product="tablet">电池状态、 网络和其他信息</string>
+    <string name="device_status_summary_cm" product="tablet">电池状态、 网络和其他信息</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
- <string name="device_status_summary_cm" product="default">电池状态、 电池电量等。</string>
- <string name="subs_settings">SIM 卡状态</string>
+    <string name="device_status_summary_cm" product="default">电池状态、 电池电量等。</string>
+    <string name="subs_settings">SIM 卡状态</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
     <string name="device_additional_status_summary">电话号码，信号，IMEI, 其他.</string>
     <!-- In About phone->Status screen, title of the item to go into the subscription status screen -->
- <string name="device_additional_status">其他状态信息</string>
+    <string name="device_additional_status">其他状态信息</string>
 
     <!-- string resources for USB OTG & UICC features -->
     <string name="storage_usb">USB存储</string>
@@ -781,10 +819,10 @@
     <string name="external_storage_turn_off">外部存储已关闭</string>
 
     <!-- Protected Apps -->
- <string name="menu_hidden_apps_delete">重置</string>
-<string name="menu_hidden_apps_reset_lock">重置锁定图案</string>
-<string name="protected_apps">受保护的应用</string>
-<string name="saving_protected_components">正在保存组件状态\u2026</string>
+    <string name="menu_hidden_apps_delete">重置</string>
+    <string name="menu_hidden_apps_reset_lock">重置锁定图案</string>
+    <string name="protected_apps">受保护的应用</string>
+    <string name="saving_protected_components">正在保存组件状态\u2026</string>
 
     <string name="stats_collection_title">数据采集</string>
     <string name="stats_collection_summary">当允许时，我们将进行数据采集</string>
@@ -792,5 +830,80 @@
     <!-- Weather in status bar -->
     <string name="status_bar_show_weather_title">显示天气</string>
     <string name="status_bar_show_weather_summary">通知栏顶部显示天气</string>
+
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">插入/拔出电源提示音</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">启用</string>
+    <string name="power_notifications_enable_summary">连接或断开电源时发出声音</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">振动</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">提示音</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">静音</string>
+
+    <!-- Voice Wakeup -->
+    <string name="voice_wakeup_settings_title">语音唤醒</string>
+    <string name="voice_wakeup_retrain_title">重新训练您的声音</string>
+    <string name="voice_wakeup_activity_title">要启动的活动</string>
+    <string name="voice_wakeup_default_activity">Google 即时</string>
+
+    <string name="picker_activities">活动</string>
+    <string name="select_custom_app_title">选择自定义应用</string>
+    <string name="select_custom_activity_title">选择自定义活动</string>
+
+    <!-- Performance settings -->
+    <string name="title_tile_performance_profile">性能配置文件</string>
+    <string name="performance_settings_title">性能</string>
+
+    <!-- Performance Settings : I/O scheduler settings title -->
+    <string name="io_scheds_title">I/O 调度器</string>
+
+    <!-- Performance Settings : I/O scheduler settings sub items -->
+    <string name="io_sched_title">I/O 调度器</string>
+    <string name="io_sched_summary" translatable="false">%S</string>
+
+    <!-- Performance Settings : Performance profile settings -->
+    <string name="perf_profile_title">情景模式</string>
+    <string name="perf_profile_summary" translatable="false">%s</string>
+
+    <!-- Performance : Force high-end graphics -->
+    <string name="pref_force_highend_gfx_title">强制高端图形</string>
+    <string name="pref_force_highend_gfx_summary">启用高端视觉特效，如透明状态栏/导航栏 (需要重启)</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">请谨慎前进</string>
+    <string name="performance_settings_warning">这些设置是实验性的，任何应用的改变都有可能导致不稳定、崩溃、数据丢失或硬件故障。\n\n如果您更改了默认设置，我们请求您不要提交错误报告。</string>
+
+    <!-- Performance Settings : Set on boot option -->
+    <string name="performance_set_on_boot">启动时设置</string>
+    <string name="performance_set_on_boot_summary">启动时还原已应用的设置</string>
+
+    <!-- Performance Settings : Processor Settings -->
+    <!-- Performance Settings : Processor settings title -->
+    <string name="processor_title">处理器</string>
+
+    <!-- Performance Settings : Processor settings sub items -->
+    <string name="cpu_cur_freq_title">当前 CPU 频率</string>
+    <string name="cpu_governors_title">CPU 调节器</string>
+    <string name="cpu_governors_summary" translatable="false">%S</string>
+    <string name="cpu_min_freq_title">最低 CPU 频率</string>
+    <string name="cpu_min_freq_summary" translatable="false">%s</string>
+    <string name="cpu_max_freq_title">最高 CPU 频率</string>
+    <string name="cpu_max_freq_summary" translatable="false">%s</string>
+
+    <!-- Automatic performance profiles -->
+    <string name="autoperf_title">启用单应用配置</string>
+    <string name="autoperf_summary">自动为各种应用选择适当的性能配置</string>
+
+    <!-- Performance menu, graphics options category -->
+    <string name="graphics_title">图形和渲染</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">拦截手势触摸事件</string>
+    <string name="edge_gesture_service_summary">不向应用发送导航栏和状态栏的触摸事件</string>
 
 </resources>
